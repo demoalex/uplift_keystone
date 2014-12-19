@@ -28,7 +28,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto";
+    font-family: "proxima-nova";
     font-weight: 500;
     
 }
@@ -72,8 +72,8 @@ a:after {
 .navbar {
 	font-weight: 600;
 	font-size: 16px;
-	padding-top: 50px;
-	margin-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 15px;
 }
 
 .navbar-inverse {
@@ -81,23 +81,22 @@ a:after {
 	border-color: white;
     border-radius: none;
     border: none;
-    font-family: "Lato";
-    font-weight: 100;
+    font-family: 'Lato'; 
+    font-weight: 600;
     font-size: 16px;
-
+    color: white;
     background: #1e5799; /* Old browsers */
 
 
 }
 
-
-
 .navbar-inverse .navbar-brand {
 
-    font-family: "Open Sans";
-    font-weight: 700px;
+    font-family: 'Lato';
+    font-weight: 700;
 	color: white;
-	font-size: 30px;
+	font-size: 26px;
+    padding-left: 100px;
 
 }
 
@@ -159,33 +158,49 @@ a:after {
 
    }
 
-#headerwrap h1 {
-	margin-top: 100px;
-	color: white;
-	font-size: 70px;
-	font-weight: 300;
-	letter-spacing: 3px;
-}
-
-
-
 
 #headerwrap h2 {
-    font-family: "Lato";
+    /* font-family: 'Gotham SSm A', 'Gotham SSm B'; */
+
+    font-family: 'Lato'; 
     color: white;
     font-size: 50px;
     font-weight: 300;
-    letter-spacing: 1px;
+    padding-bottom: 10px;
+    
     
 }
 
 #headerwrap h5 {
-    font-family: "Lato";
+    font-family: 'Whitney A', 'Whitney B'; 
     color: white;
     font-size: 16px;
+    font-weight: 400;    
+}
+
+#headerwrap form-inline {
+    padding-top: 20px; 
+}
+
+#challengeheader {
+    padding-top: 50px;
+    background: #1e5799;
+}
+
+#challengeheader h2 {
+    font-size: 50px;
+    font-family: 'Lato';
     font-weight: 300;
-    letter-spacing: 1px;
-    
+    color: white;
+}
+
+#challengeheader h4 {
+    font-size: 18px;
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 300;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .subindex {

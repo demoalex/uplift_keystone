@@ -8,11 +8,16 @@ html
         meta(charset="utf-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+        script(src="//use.typekit.net/fsz7let.js").
+        script.
+          try{Typekit.load();}catch(e){}
         
         link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
         title= title || 'uplift'
 
         link(href="/css/bootstrap.css", rel="stylesheet")
+        link(href="//cloud.typography.com/7134132/722046/css/fonts.css", rel="stylesheet", type="text/css")
         link(href="/css/font-awesome.min.css", rel="stylesheet")
         link(href="/css/main.css", rel="stylesheet")
 
@@ -48,7 +53,7 @@ html
                 li
                   a(href='/pricing') Pricing
                 li
-                  a(href='/') Resources
+                  a(href='/') More
                 li.dropdown
                   a.dropdown-toggle(href='#', data-toggle='dropdown') Get Started >
             // /.nav-collapse
