@@ -49,13 +49,23 @@ html
                 li
                   a(href='/challenge') Challenges
                 li
-                  a(href='/') Personalization
-                li
                   a(href='/pricing') Pricing
                 li
+                  a(href='/pricing', data-toggle='dropdown') 
+                    | Content
+                    b.caret
+                  ul.dropdown-menu(role='menu')
+                    li
+                      a(href='/') Blog
+                    li
+                      a(href='/') Landing Page Library
+                  // ul
+                //li
+                li
                   a(href='/') More
-                li.dropdown
-                  a.dropdown-toggle(href='#', data-toggle='dropdown') Get Started >
+                    b.caret
+                li
+                  a(href='/') Get Started >
             // /.nav-collapse
 
         block intro

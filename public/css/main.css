@@ -82,7 +82,7 @@ a:after {
     border-radius: none;
     border: none;
     font-family: 'Lato'; 
-    font-weight: 600;
+    font-weight: 200;
     font-size: 16px;
     color: white;
     background: #1e5799; /* Old browsers */
@@ -182,25 +182,33 @@ a:after {
     padding-top: 20px; 
 }
 
-#challengeheader {
+.homepagesub {
+    font-family: 'Lato';
+}
+
+#challengeheader, #pricingheader {
     padding-top: 50px;
     background: #1e5799;
 }
 
-#challengeheader h2 {
+#challengeheader h2, #pricingheader h2 {
     font-size: 50px;
     font-family: 'Lato';
     font-weight: 300;
     color: white;
 }
 
-#challengeheader h4 {
+#challengeheader h4, #pricingheader h4 {
     font-size: 18px;
     font-family: 'Whitney A', 'Whitney B';
     font-weight: 300;
     color: white;
     padding-top: 14px;
     padding-bottom: 14px;
+}
+
+.pricingfaq {
+    padding-top: 30px;
 }
 
 .subindex {
@@ -298,14 +306,20 @@ a:after {
 	padding-top: 10px;
 }
 
-.w h4 {
-	font-weight: 700;
+.w h2, p {
+    text-align: center;
+    font-family: 'Whitney A', 'Whitney B';
 }
 
-.w i {
-	color: #ff7878;
-	font-size: 30px;
+.w h2 {
+    text-align: center;
+    font-family: 'Lato';
 }
+
+.w .row .more {
+    text-align: left;  
+}
+
 
 
 .wb {
