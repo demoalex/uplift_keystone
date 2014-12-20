@@ -9,7 +9,7 @@ html
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible" content="IE=edge")
 
-        script(src="//use.typekit.net/fsz7let.js")
+        script(src="//use.typekit.net/fsz7let.js").
         script.
           try{Typekit.load();}catch(e){}
         
@@ -20,8 +20,6 @@ html
         link(href="//cloud.typography.com/7134132/722046/css/fonts.css", rel="stylesheet", type="text/css")
         link(href="/css/font-awesome.min.css", rel="stylesheet")
         link(href="/css/main.css", rel="stylesheet")
-        style.
-          ul.navbar-right li:hover ul {display: block;}
 
         //- This file provides the default styling for the KeystoneJS Content Editor
         if user && user.canAccessKeystone
@@ -67,7 +65,7 @@ html
                   a(href='/') More
                     b.caret
                 li
-                  a(href='/', style="background:green;") Get Started >
+                  a(href='/') Get Started >
             // /.nav-collapse
 
         block intro
@@ -122,5 +120,3 @@ html
             // /.modal-content
           // /.modal-dialog
         // /.modal
-        script(src="js/lib/jquery/jquery-1.11.1.js")
-        script(src="/js/lib/bootstrap/bootstrap-3.2.0.min.js")
